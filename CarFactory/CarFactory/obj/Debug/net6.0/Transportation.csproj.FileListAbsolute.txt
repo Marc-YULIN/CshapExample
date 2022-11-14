@@ -1,0 +1,15 @@
+C:\source\repos\CarFactory\CarFactory\bin\Debug\net6.0\Transportation.exe
+C:\source\repos\CarFactory\CarFactory\bin\Debug\net6.0\Transportation.deps.json
+C:\source\repos\CarFactory\CarFactory\bin\Debug\net6.0\Transportation.runtimeconfig.json
+C:\source\repos\CarFactory\CarFactory\bin\Debug\net6.0\Transportation.dll
+C:\source\repos\CarFactory\CarFactory\bin\Debug\net6.0\Transportation.pdb
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.csproj.AssemblyReference.cache
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.AssemblyInfoInputs.cache
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.AssemblyInfo.cs
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.csproj.CoreCompileInputs.cache
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.dll
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\refint\Transportation.dll
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.pdb
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\Transportation.genruntimeconfig.cache
+C:\source\repos\CarFactory\CarFactory\obj\Debug\net6.0\ref\Transportation.dll

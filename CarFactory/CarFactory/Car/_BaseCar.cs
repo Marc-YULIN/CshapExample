@@ -21,12 +21,17 @@ namespace Transportation.Car
         /// </summary>
         protected string model;
 
+        private string serialNumber;
+
+        private string createDate;
 
         public _BaseCar(string logo, int cc, string model)
         {
             this.logo = logo;
             this.cc = cc;
             this.model = model;
+            this.serialNumber = Guid.NewGuid().ToString();
+            this.createDate = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss:fff:ffffff");
         }
 
         /// <summary>
@@ -42,16 +47,16 @@ namespace Transportation.Car
         /// </summary>
         abstract public void Sound();
 
-        /// <summary>
-        /// 生產序號
-        /// </summary>
-        public string GetSerialNumber => Guid.NewGuid().ToString();
 
-        /// <summary>
-        /// 生產時間
-        /// </summary>
-        public string GetCreateDate => DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss:fff:ffffff");
+        public void GetSerialNumber()
+        {
+            Console.WriteLine($"我的生產時間:{createDate}");
+        }
 
+        public void GetCreateDate()
+        {
+            Console.WriteLine($"我的生產序號:{serialNumber}");
+        }
 
     }
 }

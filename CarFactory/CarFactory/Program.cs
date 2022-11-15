@@ -60,21 +60,24 @@ namespace Transportation // Note: actual namespace depends on the project name.
             _BaseCar carA = audiFactory.GenerateCar("A1");
             carA.Drive();
             carA.Sound();
-            Console.WriteLine($"生產日期:{carA.GetCreateDate} 生產序號:{carA.GetSerialNumber}");
+            carA.GetCreateDate();
+            carA.GetSerialNumber();
             Console.WriteLine();
 
             NormalFactory bmwFactory = new BMWFactory();
             _BaseCar carB = bmwFactory.GenerateCar("X7");
             carB.Drive();
             carB.Sound();
-            Console.WriteLine($"生產日期:{carB.GetCreateDate} 生產序號:{carB.GetSerialNumber}");
+            carB.GetCreateDate();
+            carB.GetSerialNumber();
             Console.WriteLine();
 
             NormalFactory teslaFactory = new TeslaFactory();
             _BaseCar carC = teslaFactory.GenerateCar("Model3");
             carC.Drive();
             carC.Sound();
-            Console.WriteLine($"生產日期:{carC.GetCreateDate} 生產序號:{carC.GetSerialNumber}");
+            carC.GetCreateDate();
+            carC.GetSerialNumber();
             Console.WriteLine();
 
             //衍伸題目:
@@ -84,10 +87,9 @@ namespace Transportation // Note: actual namespace depends on the project name.
             _BaseAirplane airA = airBusFactory.GenerateAirplane("A320");
             airA.Drive();
             airA.Sound();
-            Console.WriteLine($"生產日期:{airA.GetCreateDate} 生產序號:{airA.GetSerialNumber}");
+            airA.GetCreateDate();
+            airA.GetSerialNumber();
             #endregion Factory
-
-
         }
     }
 }
